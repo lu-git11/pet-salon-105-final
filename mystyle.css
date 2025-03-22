@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: cursive;
+    background-image: url("./img/wallpaper.jpg");
+}
+main{
+    height: 100vh;
+}
+
+header{
+    background-color: burlywood;
+    padding: 22px;
+}
+
+h1{
+    background-color: rgb(25, 25, 100); 
+    border-radius: 35%;
+    width: 250px;
+    padding: 5px;
+    justify-self: center;
+    font-size: 50px;
+    color: lightseagreen;
+}
+
+h2{
+    background-color: lightseagreen;
+    text-transform: capitalize;
+    text-align-last: center;
+}
+h2 span{
+    margin-right: 3rem;
+}
+h3{
+    margin: auto;
+    font-size: 45px; 
+}
+
+p{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: gray;
+}
+
+/*container*/
+.register-container{
+    width: 80%;
+    height: 100%;
+    
+    align-content: center;
+    justify-self: center;
+}
+
+.index-container{
+    width: 50%;
+    height: auto;
+    background-color: burlywood;
+    padding: 10px;
+    align-content: center;
+    justify-self: center;
+}
+
+.card-container{
+    width: 100%;
+    height: 100%;
+    background-color: lightseagreen;
+    align-content: center;
+    justify-self: center;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    border: 2px solid rgb(25, 25, 100);
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    background-color: lightseagreen;
+    color: rgb(25, 25, 100);
+    
+}
+
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 200px;
+}
+
+
+/*utility*/
+.center{
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+}
+
+.padding{
+    padding-right: 650px;
+    text-align: center;
+}
+
+.large{
+    margin-top: 40px;
+    font-size: 150px;
+}
+
+.btn{
+    margin: 5px;
+    background-color: gray;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    align-items: center;
+}
+
+.copyright-container{
+    display: flex;
+}
+.social-container a{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 1rem;
+}
+
+.social-container i{
+    text-align: center;
+    align-content: center;
+    color: black;
+    width: 2rem;
+    height: 2rem;
+    font-size: 25px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    width: 95%;
+    height: 210px;
+    background-color: aliceblue;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    width: 95%;
+    height: 210px;
+    background-color: rgb(46, 75, 101);
+}
+
+ul{
+    background-color: lightseagreen;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card3{
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    width: 95%;
+    height: 210px;
+    background-color: cadetblue;
+}
+
+.error{
+    background-color: red !important;
+}
+.card-font{
+    font-size: 25px;
+}
+
+/*about*/
+
+.container{
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.big-pic{
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url("./img/highlight.jpg");
+    justify-self: center;
+    list-style-position: inside;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+.about-list{
+    justify-content:space-evenly;
+    margin-bottom: 2rem;
+    line-height: 2;
+}
+
+.about-item{
+    font-weight: bold;
+    font-size: 20px;
+    color: lightseagreen;
+    
+}
+
+.text-center{
+    text-align: center;
+    margin: 40px;
+    width: 800px;
+    justify-self: center;
+    align-self: center;
+    background-color: beige;
+    font-size: 23px;
+}
+
+.background{
+    background-color: beige;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+/*contact*/
+
+.input-contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.input-contact label{
+    display: inline-block;
+    width: 30%;
+    font-size: 15px;
+}
+
+.input-contact input,
+.input-contact textarea{
+    width: 80%;
+    padding: 5px;
+    border: 1px solid rgb(168, 165, 165);
+}
+
+
+select{
+    width: 80%;
+    padding: 5px;
+    border: 1px solid rgb(168, 165, 165);
+    size: 1;
+}
+
+.form-contact{
+    background-color: burlywood;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 60%;
+    height: auto;
+    justify-self: center;
+}
+
+legend{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+fieldset{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(137, 137, 137);
+}
+
+.footer-contact{
+    background-color: lightgray;
+    margin-top: 2%;
+}
+
+.contact{
+    display: flex;
+    height: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact-bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-border{
+    border-right: 2px solid rgb(25, 25, 100);
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+
+.bold-text{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.submit{
+    background-color: rgb(25, 25, 100);
+    color: lightseagreen;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px lightseagreen solid;
+}
